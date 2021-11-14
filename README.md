@@ -54,3 +54,4 @@ Tests and functionalities -
 		
 		
 
+![test image](https://github.com/rkgeekoftheweek/ETL/blob/f4172dd96edf226eb23b21c7bf0f7350c2d92c9f/log_file.png)
