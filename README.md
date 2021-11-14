@@ -2,7 +2,7 @@
 Problem definition : This can be checked in Data Engineering asessment pdf file.
 
 
-How to Run =  python3 <file_name>.py <environment> <config_file>.conf
+How to Run =  python3 <file_name>.py environment <config_file>.conf
 
 
 Approach -
