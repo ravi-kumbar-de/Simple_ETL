@@ -54,6 +54,7 @@ Tests and functionalities -
 		
 		
 
-Generated daily log and validation table:
+Generated daily log and validation table -
 If image is not visible , please check log folder. 
+	
 ![test image](https://github.com/rkgeekoftheweek/ETL/blob/f4172dd96edf226eb23b21c7bf0f7350c2d92c9f/log_file.png)
