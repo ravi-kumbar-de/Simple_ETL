@@ -1,6 +1,10 @@
 
 Problem definition : This can be checked in Data Engineering asessment pdf file.
 
+
+How to Run =  python3 <file_name>.py <environment> <config_file>.conf
+
+
 Approach -
 
 Single working ETL script written in python which can be scheduled daily that has following features:
@@ -49,6 +53,4 @@ Tests and functionalities -
 		- add environment , connection string , location , stage_table name , schema info 
 		
 		
-How to Run -
 
-python3 <file_name>.py <environment> <config>.conf
