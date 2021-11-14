@@ -47,3 +47,8 @@ Tests and functionalities -
 	
 		-You just need use config file to switch between UAT , DEV, PROD environments.
 		- add environment , connection string , location , stage_table name , schema info 
+		
+		
+How to Run -
+
+python3 <file_name>.py <environment> <config>.conf
