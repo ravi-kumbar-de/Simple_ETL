@@ -1,0 +1,52 @@
+=====================  2021-11-14 ==============================
+Connected Database => C:\Users\ravi.kumbar\Desktop\BIProjects\assignments\sqlite\db\DEV.db
+Stage Table =>  med_users_master
+================================================
+READING FILE FROM SOURCE LOCATION
+FILE => C:/Users/ravi.kumbar/Desktop/BIProjects/assignments/input/med_data_14112021.csv
+FILE READ
+INSERTING INTO SATGE
+Successful
+================================================
+FILE => C:/Users/ravi.kumbar/Desktop/BIProjects/assignments/input/med_data_14112021.json
+FILE READ
+INSERTING INTO SATGE
+Successful
+================================================
+FILE => C:/Users/ravi.kumbar/Desktop/BIProjects/assignments/input/med_data_14112021.txt
+FILE READ
+INSERTING INTO SATGE
+Successful
+================================================
+FILE => C:/Users/ravi.kumbar/Desktop/BIProjects/assignments/input/med_data_14112021.xlsx
+Failed : File is Empty
+=========================================================
+LOADING COUNTRYWISE DATA INTO TARGET
+Target Table =>  med_users_USA
+TABLE CREATED & DATA LOADED
+----------------------------
+Target Table =>  med_users_IND
+TABLE CREATED & DATA LOADED
+----------------------------
+Target Table =>  med_users_PHIL
+TABLE CREATED & DATA LOADED
+----------------------------
+Target Table =>  med_users_NYC
+TABLE CREATED & DATA LOADED
+----------------------------
+Target Table =>  med_users_AU
+TABLE CREATED & DATA LOADED
+----------------------------
+=============================================
+COUNT Validation between Stage and Target
+Country 	 med_users_master 	 med_users_USA 	 Result
+USA 	 		3 	 		3 	 MATCH
+Country 	 med_users_master 	 med_users_IND 	 Result
+IND 	 		3 	 		3 	 MATCH
+Country 	 med_users_master 	 med_users_PHIL  Result
+PHIL 	 		3 	 		3 	 MATCH
+Country 	 med_users_master 	 med_users_NYC 	 Result
+NYC 	 		3 			3 	 MATCH
+Country 	 med_users_master 	 med_users_AU 	 Result
+AU 			3 	 		3 	 MATCH
+==========================================================
